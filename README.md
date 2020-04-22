@@ -40,9 +40,13 @@ Project structure:
 1. Clone repository.
 2. pip install requirements.txt
 3. Run following commands:
-    1. python manage.py db init
-    2. python manage.py db migrate
-    3. python manage.py db upgrade
+    1. export FLASK_APP=manage.py
+    2. LC_ALL=en_us
+    3. export LC_ALL
+    4. flask db init
+    5. flask db migrate
+    6. flask db upgrade
+    7. flask run
 4. Start server by running python manage.py runserver
 
 ## Usage

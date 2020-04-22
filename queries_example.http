@@ -1,0 +1,23 @@
+POST http://localhost:5000/api/script_run/1
+
+###
+
+# Adding new script
+POST http://localhost:5000/api/scripts
+Content-Type: application/json
+
+{
+"name": "hello world",
+"description": "prints hello world",
+"path": "/Users/gertz/Projects/automate-server/scripts/hello_world.sh"
+}
+
+###
+
+# Getting all scripts
+GET http://localhost:5000/api/scripts
+
+###
+
+# Getting specific script (id:1)
+GET http://localhost:5000/api/scripts/2
