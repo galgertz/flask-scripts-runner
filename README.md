@@ -1,4 +1,4 @@
-# Flask-RESTful API project template
+# Task Runner
 
 This project shows one of the possible ways to implement RESTful API server.
 
