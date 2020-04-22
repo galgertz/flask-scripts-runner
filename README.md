@@ -2,7 +2,7 @@
 
 This project shows one of the possible ways to implement RESTful API server.
 
-There are implemented two models: User and Todo, one user has many todos.
+There are implemented two models: User and Scripts
 
 Main libraries used:
 1. Flask-Migrate - for handling all database migrations.
@@ -17,7 +17,11 @@ Project structure:
 ├── app.py
 ├── endpoints
 │   ├── __init__.py
-│   ├── todos
+│   ├── scripts_runner
+│   │   ├── __init__.py
+│   │   ├── runner.py
+│   │   └── resource.py
+│   ├── scripts
 │   │   ├── __init__.py
 │   │   ├── model.py
 │   │   └── resource.py
